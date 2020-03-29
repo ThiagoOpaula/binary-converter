@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-style: solid;
+  border-radius: 1%;
+  border-color: black;
+}
+
+.button{
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.textview{
+  width: 217px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+p{
+  padding-left: 1.8%;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: larger;
+}
